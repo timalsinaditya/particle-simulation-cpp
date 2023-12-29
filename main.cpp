@@ -9,7 +9,7 @@ using namespace std;
 int WIDTH = 800;
 int HEIGHT = 800;
 
-const int particleCount = 80000;
+const int particleCount = 100000;
 
 int main(int, char**) {
     InitWindow(WIDTH, HEIGHT, "Particles");
