@@ -30,10 +30,10 @@ int main(int, char**) {
             ClearBackground(Color{41, 41, 41, 255});
             for (int i = 0; i < particleCount; i++){
                 if (IsMouseButtonDown(0)) {
-                    particleArray[i].ApplyGravityForce({(float)GetMouseX(), (float)GetMouseY()}, 1000, 1);
+                    particleArray[i].ApplyGravityForce({(float)GetMouseX(), (float)GetMouseY()}, 1000, 0.5);
                 }
                 if (IsMouseButtonDown(1)) {
-                    particleArray[i].ApplyGravityForce({(float)GetMouseX(), (float)GetMouseY()}, 1000, -0.5);
+                    particleArray[i].ApplyGravityForce({(float)GetMouseX(), (float)GetMouseY()}, 1000, -1);
                 }
                 if (IsKeyDown(KEY_SPACE)) {
                     particleArray[i].ApplyGravityForce(particleArray[i].original, 4000, 1);
