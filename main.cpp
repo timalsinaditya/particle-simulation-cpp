@@ -21,7 +21,6 @@ int main(int, char**) {
 
     SetTargetFPS(80);
     
-    int L = 0;
     while (!WindowShouldClose())
     {
         BeginDrawing();

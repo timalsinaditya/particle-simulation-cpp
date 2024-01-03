@@ -1,1 +1,1 @@
-g++ -o myprogram main.cpp particle.cpp -lraylib -lstdc++
+g++ -Wall -Wextra -ggdb -o myprogram main.cpp particle.cpp -lraylib -lstdc++
